@@ -15,7 +15,6 @@ This is the redesign of my portfolio website. In this file you will find more ab
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -43,6 +42,7 @@ I began in Figma and designed what each page would look like. UI and design is s
 - HTML, CSS, Javscript
 - Figma
 - Flexbox
+- Mobile first design
 - [React](https://reactjs.org/) - JS library
 - [Create React App](https://create-react-app.dev/) - JS Utility
 - [CRACO](https://github.com/gsoft-inc/craco) - JS Utility
@@ -81,6 +81,8 @@ The combination of Tailwind CSS classes below gave me the desired effect. I am p
         <ProjectSlide name={project}></ProjectSlide>
       ))}
     </div>
+
+This was also another first for me. This is my first time deploying a react app to github pages.
 
 ### Continued development
 
