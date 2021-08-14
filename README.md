@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+# Spencer Dedrick Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Thanks for READING ME.
 
-## Available Scripts
+This is the redesign of my portfolio website. In this file you will find more about the development process behind the project.
 
-In the project directory, you can run:
+## Table of contents
 
-### `npm start`
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Overview
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+First a foremost I wanted to create a website to showcase the projects that I have been working on. I also wanted to move away from the template I had been using for so long.
 
-### `npm test`
+I took a lot of inspiration for this site for various portfolios that caught my eyes over the last year or so. I wanted my website to be easy to be simple, clean, and user friendly. I also wanted to put an emphasis on responsiveness.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Screenshot
 
-### `npm run build`
+![](./design/Calculator-Desktop.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Links
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Source Code URL: [Add live site URL here](https://your-live-site-url.com)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## My process
 
-### `npm run eject`
+This project started with some research into a ton of different portfolios. I ended up settling on a simple and straightforward design.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+I began in Figma and designed what each page would look like. UI and design is something I have admittedly struggled with in the past. I used to try to design as I code but using Figma made this process 1000 times easier! I always worried that designing before handBeing able to see how everything should look before typing a single line of code felt like a huge
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Built with
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- HTML, CSS, Javscript
+- Figma
+- Flexbox
+- [React](https://reactjs.org/) - JS library
+- [Create React App](https://create-react-app.dev/) - JS Utility
+- [CRACO](https://github.com/gsoft-inc/craco) - JS Utility
+- [React Router Dom](https://github.com/remix-run/react-router#readme) - React routing utility
+- [Tailwind CSS](https://tailwindcss.com/) - CSS Utility
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### What I learned
 
-## Learn More
+As mentioned before this was the first project where I fully designed the project before even starting to code. I used Figma for this and learned a ton of new things including prototyping. At first I was afraid taking time before hand to design the project would slow down my development. With this project I'm taking my time and I don't think that's a bad thing. The development process feels a lot less rushed and hectic due to the design being done seperately before hand.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Overall, I will continue making use of figma in the future as it has been a much better development experience overall. Also, it has given me the opportunity to learn some fun new things!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+During this project I ran into a couple of problems that I needed to work through.
 
-### Code Splitting
+One of the first was figuring out how to dynamically use images based on the props of a component.
+This is something I have done before in previous projects, but I wanted to find a more simplified solution than what I had done in the past. I ended up using the solution below. In the grand scheme of things I know this is pretty simple, but it seems to be something that is pretty commonly asked about on coding forums. I guess this is a "if you know you know" kind of thing.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<NavLink
+to={`/${props.name}`}
+className="container project-slide-container w-full inline-block" >
+{/_ PROJECT SLIDE IMAGE _/}
+<img
+src={`images/${props.name}.png`}
+alt={`${props.name} Project`}
+className="object-cover h-full inline-block"
+/>
+</NavLink>
 
-### Analyzing the Bundle Size
+Another problem I ran into was trying to figure out how to make a horizontal scrolling container with my projects in it. Again it was something I have done before in previous projects but I was determined to use a more simplified solution rather than relying on adding more bloat by using an npm package.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+The combination of Tailwind CSS classes below gave me the desired effect. I am pretty pleased with the outcome as it works with mouse and touch based devices.
 
-### Making a Progressive Web App
+<div className=" overflow-x-scroll overflow-y-hidden project-slider whitespace-nowrap inline-block space-x-6 mb-5">
+      {/* PROJECT SLIDES MAPPED BASED ON PROJECTS ARRAY FOUND IN src\Pages\Projects\Projects.js */}
+      {projects.map((project, i) => (
+        <ProjectSlide name={project}></ProjectSlide>
+      ))}
+    </div>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Continued development
 
-### Advanced Configuration
+This is something that will be continually updated as I develop more projects and expand in my knowledge. I have made this with expansion in mind. The site is designed to have projects added easily by adding an image thumbnail and a project name to my projects array.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Useful resources
 
-### Deployment
+- [Solution to image loading problem](https://stackoverflow.com/questions/47196800/reactjs-and-images-in-public-folder) - This was such a simple solution to something that I was overcomplicating. I'm really grateful to have this information now because it opens up a lot of new possibilities, and will save me a lot of trouble in the future.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Author
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Website - [Spencer Dedrick](https://spencerdedrick.com/)
+- LinkedIn - [Spencer Dedrick](https://www.linkedin.com/in/spencer-dedrick/)
