@@ -7,6 +7,7 @@ function Header() {
     <div className="header-container flex items-center justify-between align-top flex-wrap p-6  cursor-pointer ">
       {/*  HEADER LOGO */}
       <NavLink
+        exact
         to="/"
         className="header-logo hover:text-indigo-600"
         activeClassName="text-indigo-600"
@@ -14,7 +15,7 @@ function Header() {
         <p className="font-medium text-2xl md:text-3xl  uppercase cursor-pointer ">
           Spencer
         </p>
-        <p className="font-medium text-2xl md:text-3xl uppercase">Dedrick</p>
+        <p className="font-medium text-2xl md:text-3xl uppercase ">Dedrick</p>
       </NavLink>
 
       {/* HEADER LINKS */}
