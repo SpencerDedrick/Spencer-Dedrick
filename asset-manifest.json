@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/www.spencerdedrick.com/static/css/main.b5ece9a8.chunk.css",
-    "main.js": "/www.spencerdedrick.com/static/js/main.58a3cd1b.chunk.js",
-    "main.js.map": "/www.spencerdedrick.com/static/js/main.58a3cd1b.chunk.js.map",
-    "runtime-main.js": "/www.spencerdedrick.com/static/js/runtime-main.0a83589f.js",
-    "runtime-main.js.map": "/www.spencerdedrick.com/static/js/runtime-main.0a83589f.js.map",
-    "static/js/2.1e9b62ca.chunk.js": "/www.spencerdedrick.com/static/js/2.1e9b62ca.chunk.js",
-    "static/js/2.1e9b62ca.chunk.js.map": "/www.spencerdedrick.com/static/js/2.1e9b62ca.chunk.js.map",
-    "static/js/3.2352edc3.chunk.js": "/www.spencerdedrick.com/static/js/3.2352edc3.chunk.js",
-    "static/js/3.2352edc3.chunk.js.map": "/www.spencerdedrick.com/static/js/3.2352edc3.chunk.js.map",
-    "index.html": "/www.spencerdedrick.com/index.html",
-    "static/css/main.b5ece9a8.chunk.css.map": "/www.spencerdedrick.com/static/css/main.b5ece9a8.chunk.css.map",
-    "static/js/2.1e9b62ca.chunk.js.LICENSE.txt": "/www.spencerdedrick.com/static/js/2.1e9b62ca.chunk.js.LICENSE.txt"
+    "main.css": "/SpencerDedrick/Spencer-Dedrick/static/css/main.b5ece9a8.chunk.css",
+    "main.js": "/SpencerDedrick/Spencer-Dedrick/static/js/main.58a3cd1b.chunk.js",
+    "main.js.map": "/SpencerDedrick/Spencer-Dedrick/static/js/main.58a3cd1b.chunk.js.map",
+    "runtime-main.js": "/SpencerDedrick/Spencer-Dedrick/static/js/runtime-main.8f12d2a1.js",
+    "runtime-main.js.map": "/SpencerDedrick/Spencer-Dedrick/static/js/runtime-main.8f12d2a1.js.map",
+    "static/js/2.1e9b62ca.chunk.js": "/SpencerDedrick/Spencer-Dedrick/static/js/2.1e9b62ca.chunk.js",
+    "static/js/2.1e9b62ca.chunk.js.map": "/SpencerDedrick/Spencer-Dedrick/static/js/2.1e9b62ca.chunk.js.map",
+    "static/js/3.2352edc3.chunk.js": "/SpencerDedrick/Spencer-Dedrick/static/js/3.2352edc3.chunk.js",
+    "static/js/3.2352edc3.chunk.js.map": "/SpencerDedrick/Spencer-Dedrick/static/js/3.2352edc3.chunk.js.map",
+    "index.html": "/SpencerDedrick/Spencer-Dedrick/index.html",
+    "static/css/main.b5ece9a8.chunk.css.map": "/SpencerDedrick/Spencer-Dedrick/static/css/main.b5ece9a8.chunk.css.map",
+    "static/js/2.1e9b62ca.chunk.js.LICENSE.txt": "/SpencerDedrick/Spencer-Dedrick/static/js/2.1e9b62ca.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.0a83589f.js",
+    "static/js/runtime-main.8f12d2a1.js",
     "static/js/2.1e9b62ca.chunk.js",
     "static/css/main.b5ece9a8.chunk.css",
     "static/js/main.58a3cd1b.chunk.js"
