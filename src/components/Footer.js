@@ -52,15 +52,17 @@ function Footer() {
         {/* EMAIL TO LINK */}
         <a
           href="mailto: spencer.dedrick@gmail.com"
-          className="font-medium font-m"
+          className="font-medium font-m hover:text-indigo-600"
         >
           Spencer.Dedrick@gmail.com
         </a>
       </div>
       {/* FOOTER NAME & LEGAL*/}
       <div className="container">
-        <p className="font-medium text-l  uppercase cursor-pointer ">
-          Spencer Dedrick{" "}
+        <p className=" text-l  uppercase cursor-pointer ">
+          <Link exact to="/" className="hover:text-indigo-600 font-bold">
+            Spencer Dedrick{" "}
+          </Link>
           <span className="font-light">All Rights Reserved.</span>
         </p>
       </div>

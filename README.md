@@ -35,7 +35,7 @@ I took a lot of inspiration for this site for various portfolios that caught my 
 
 This project started with some research into a ton of different portfolios. I ended up settling on a simple and straightforward design.
 
-I began in Figma and designed what each page would look like. UI and design is something I have admittedly struggled with in the past. I used to try to design as I code but using Figma made this process 1000 times easier! I always worried that designing before handBeing able to see how everything should look before typing a single line of code felt like a huge
+I began in Figma and designed what each page would look like. UI and design is something I have admittedly struggled with in the past. I used to try to design as I code but using Figma to design everyone ahead of time made this process 1000 times easier! I always worried that designing beforehand would slow down my work, but all in all, it really took a lot of pressure off the process. Being able to see how everything should look before typing a single line of code really increased my productivity as I could focus on one element of the site at a time.
 
 ### Built with
 
@@ -82,7 +82,7 @@ The combination of Tailwind CSS classes below gave me the desired effect. I am p
       ))}
     </div>
 
-This was also another first for me. This is my first time deploying a react app to github pages.
+There was also another first for me. This is my first time deploying a react app to github pages. That was....an interesting experience. I had previously only used netlify, but I wanted to try github and also use my first custom domain.
 
 ### Continued development
 

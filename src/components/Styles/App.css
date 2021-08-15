@@ -2,6 +2,7 @@
 html * {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
+  transition: 300ms;
 }
 
 .project-slide-container {
@@ -13,4 +14,14 @@ html * {
 .project-slider {
   max-height: 480px;
   width: 100vw;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
