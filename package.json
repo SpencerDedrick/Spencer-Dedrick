@@ -1,8 +1,7 @@
-{
+{"homepage": "https://github.com/SpencerDedrick/Spencer-Dedrick",
   "name": "spencer-dedrick",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://spencerdedrick.github.io/spencer-dedrick",
   "dependencies": {
     "@craco/craco": "^6.2.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
