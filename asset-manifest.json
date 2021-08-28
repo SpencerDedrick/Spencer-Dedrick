@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/spencerdedrick.com/static/css/main.e9009d96.chunk.css",
-    "main.js": "/spencerdedrick.com/static/js/main.80ac0ede.chunk.js",
-    "main.js.map": "/spencerdedrick.com/static/js/main.80ac0ede.chunk.js.map",
+    "main.js": "/spencerdedrick.com/static/js/main.fe796f71.chunk.js",
+    "main.js.map": "/spencerdedrick.com/static/js/main.fe796f71.chunk.js.map",
     "runtime-main.js": "/spencerdedrick.com/static/js/runtime-main.20e2a7a5.js",
     "runtime-main.js.map": "/spencerdedrick.com/static/js/runtime-main.20e2a7a5.js.map",
-    "static/js/2.ad31b4bb.chunk.js": "/spencerdedrick.com/static/js/2.ad31b4bb.chunk.js",
-    "static/js/2.ad31b4bb.chunk.js.map": "/spencerdedrick.com/static/js/2.ad31b4bb.chunk.js.map",
+    "static/js/2.febb1e6a.chunk.js": "/spencerdedrick.com/static/js/2.febb1e6a.chunk.js",
+    "static/js/2.febb1e6a.chunk.js.map": "/spencerdedrick.com/static/js/2.febb1e6a.chunk.js.map",
     "static/js/3.3aa74b3f.chunk.js": "/spencerdedrick.com/static/js/3.3aa74b3f.chunk.js",
     "static/js/3.3aa74b3f.chunk.js.map": "/spencerdedrick.com/static/js/3.3aa74b3f.chunk.js.map",
     "index.html": "/spencerdedrick.com/index.html",
     "static/css/main.e9009d96.chunk.css.map": "/spencerdedrick.com/static/css/main.e9009d96.chunk.css.map",
-    "static/js/2.ad31b4bb.chunk.js.LICENSE.txt": "/spencerdedrick.com/static/js/2.ad31b4bb.chunk.js.LICENSE.txt"
+    "static/js/2.febb1e6a.chunk.js.LICENSE.txt": "/spencerdedrick.com/static/js/2.febb1e6a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.20e2a7a5.js",
-    "static/js/2.ad31b4bb.chunk.js",
+    "static/js/2.febb1e6a.chunk.js",
     "static/css/main.e9009d96.chunk.css",
-    "static/js/main.80ac0ede.chunk.js"
+    "static/js/main.fe796f71.chunk.js"
   ]
 }
