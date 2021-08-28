@@ -9,11 +9,11 @@ library.add(faChevronRight);
 function Home() {
   return (
     /* HOME CONTAINER */
-    <div className="container p-6">
+    <div className="container p-5">
       {/* HOME HEADING TEXT */}
-      <h1 className=" font-light text-2xl">Hi, Hello!</h1>
+      <h1 className=" font-medium text-2xl">Hi, Hello!</h1>
       {/* HOME PARAGRAPH TEXT */}
-      <p className="text-xl py-10">
+      <p className="text-xl py-5">
         I am a software engineer and web developer with a focus on the React
         library. I have a passion for technology, and I love helping others. I
         like to be an active part of my community by working and volunteering
@@ -36,7 +36,7 @@ function Home() {
       <h1 className=" font-light text-xl my-5">
         Thanks for stopping by, I look forward to working with you some time.
       </h1>
-      <h1 className=" font-medium text-xl my-">
+      <h1 className=" font-medium text-xl ">
         You can contact me using the links below.
       </h1>
     </div>

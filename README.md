@@ -42,6 +42,7 @@ I began in Figma and designed what each page would look like. UI and design is s
 - HTML, CSS, Javscript
 - Figma
 - Flexbox
+- Grid
 - Mobile first design
 - [React](https://reactjs.org/) - JS library
 - [Create React App](https://create-react-app.dev/) - JS Utility
@@ -83,6 +84,10 @@ The combination of Tailwind CSS classes below gave me the desired effect. I am p
     </div>
 
 There was also another first for me. This is my first time deploying a react app to github pages. That was....an interesting experience. I had previously only used netlify, but I wanted to try github and also use my first custom domain.
+
+I had some difficulty getting the icon bar on my work page to handle clicks correctly and update the icons based on state. I eventually got it figure out thanks to this answer on stackoverflow. When dealing with an object as state the spread operator must be used.
+
+https://stackoverflow.com/questions/56266575/why-is-usestate-not-triggering-re-render
 
 ### Continued development
 

@@ -3,14 +3,15 @@ import { Link } from "react-router-dom";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import { faFileAlt } from "@fortawesome/free-solid-svg-icons";
+import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-library.add(fab, faFileAlt);
+library.add(fab, faFileAlt, faExternalLinkAlt);
 
 function Footer() {
   return (
     /* FOOTER CONTAINER */
-    <div className="container w-full flex flex-col p-6">
+    <div className="container w-full flex flex-col p-5">
       {/* FOOTER LINKS */}
       <div className="container flex space-x-4 text-2xl">
         {/* LINKEDIN PROFILE LINK */}
@@ -18,33 +19,39 @@ function Footer() {
           href="https://www.linkedin.com/in/spencer-dedrick"
           target="_blank"
           rel="noopener noreferrer"
+          className="tooltipTarget"
         >
           <FontAwesomeIcon
             icon={["fab", "linkedin"]}
-            className="hover:text-indigo-600"
+            className="hover:text-indigo-700 "
           ></FontAwesomeIcon>
+          <p className="tooltipText text-base py-1 px-3">LinkedIn</p>
         </a>
         {/* GITHUB PAGE LINK */}
         <a
           href="https://github.com/SpencerDedrick/"
           target="_blank"
           rel="noopener noreferrer"
+          className="tooltipTarget"
         >
           <FontAwesomeIcon
             icon={["fab", "github"]}
-            className="hover:text-indigo-600"
+            className="hover:text-indigo-700"
           ></FontAwesomeIcon>
+          <p className="tooltipText text-base py-1 px-3">GitHub</p>
         </a>
         {/* RESUME/CV LINK */}
         <a
           href="https://drive.google.com/file/d/1m7daCua4ToZwjXLGMRTl78CFAI5lzaL6/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
+          className="tooltipTarget"
         >
           <FontAwesomeIcon
             icon="file-alt"
-            className="hover:text-indigo-600"
+            className="hover:text-indigo-700"
           ></FontAwesomeIcon>
+          <p className="tooltipText text-base py-1 px-3">Resume</p>
         </a>
       </div>
       {/* FOOTER EMAIL */}
@@ -52,7 +59,7 @@ function Footer() {
         {/* EMAIL TO LINK */}
         <a
           href="mailto: spencer.dedrick@gmail.com"
-          className="font-medium font-m hover:text-indigo-600"
+          className="font-medium font-m hover:text-indigo-700"
         >
           Spencer.Dedrick@gmail.com
         </a>
@@ -60,7 +67,7 @@ function Footer() {
       {/* FOOTER NAME & LEGAL*/}
       <div className="container">
         <p className=" text-l  uppercase cursor-pointer ">
-          <Link exact to="/" className="hover:text-indigo-600 font-bold">
+          <Link exact to="/" className="hover:text-indigo-700 font-bold">
             Spencer Dedrick{" "}
           </Link>
           <span className="font-light">All Rights Reserved.</span>
