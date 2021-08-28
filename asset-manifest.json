@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Spencer-Dedrick/static/css/main.b5ece9a8.chunk.css",
-    "main.js": "/Spencer-Dedrick/static/js/main.58a3cd1b.chunk.js",
-    "main.js.map": "/Spencer-Dedrick/static/js/main.58a3cd1b.chunk.js.map",
-    "runtime-main.js": "/Spencer-Dedrick/static/js/runtime-main.d0071283.js",
-    "runtime-main.js.map": "/Spencer-Dedrick/static/js/runtime-main.d0071283.js.map",
-    "static/js/2.1e9b62ca.chunk.js": "/Spencer-Dedrick/static/js/2.1e9b62ca.chunk.js",
-    "static/js/2.1e9b62ca.chunk.js.map": "/Spencer-Dedrick/static/js/2.1e9b62ca.chunk.js.map",
-    "static/js/3.2352edc3.chunk.js": "/Spencer-Dedrick/static/js/3.2352edc3.chunk.js",
-    "static/js/3.2352edc3.chunk.js.map": "/Spencer-Dedrick/static/js/3.2352edc3.chunk.js.map",
-    "index.html": "/Spencer-Dedrick/index.html",
-    "static/css/main.b5ece9a8.chunk.css.map": "/Spencer-Dedrick/static/css/main.b5ece9a8.chunk.css.map",
-    "static/js/2.1e9b62ca.chunk.js.LICENSE.txt": "/Spencer-Dedrick/static/js/2.1e9b62ca.chunk.js.LICENSE.txt"
+    "main.css": "/spencerdedrick.com/static/css/main.e9009d96.chunk.css",
+    "main.js": "/spencerdedrick.com/static/js/main.80ac0ede.chunk.js",
+    "main.js.map": "/spencerdedrick.com/static/js/main.80ac0ede.chunk.js.map",
+    "runtime-main.js": "/spencerdedrick.com/static/js/runtime-main.20e2a7a5.js",
+    "runtime-main.js.map": "/spencerdedrick.com/static/js/runtime-main.20e2a7a5.js.map",
+    "static/js/2.ad31b4bb.chunk.js": "/spencerdedrick.com/static/js/2.ad31b4bb.chunk.js",
+    "static/js/2.ad31b4bb.chunk.js.map": "/spencerdedrick.com/static/js/2.ad31b4bb.chunk.js.map",
+    "static/js/3.3aa74b3f.chunk.js": "/spencerdedrick.com/static/js/3.3aa74b3f.chunk.js",
+    "static/js/3.3aa74b3f.chunk.js.map": "/spencerdedrick.com/static/js/3.3aa74b3f.chunk.js.map",
+    "index.html": "/spencerdedrick.com/index.html",
+    "static/css/main.e9009d96.chunk.css.map": "/spencerdedrick.com/static/css/main.e9009d96.chunk.css.map",
+    "static/js/2.ad31b4bb.chunk.js.LICENSE.txt": "/spencerdedrick.com/static/js/2.ad31b4bb.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d0071283.js",
-    "static/js/2.1e9b62ca.chunk.js",
-    "static/css/main.b5ece9a8.chunk.css",
-    "static/js/main.58a3cd1b.chunk.js"
+    "static/js/runtime-main.20e2a7a5.js",
+    "static/js/2.ad31b4bb.chunk.js",
+    "static/css/main.e9009d96.chunk.css",
+    "static/js/main.80ac0ede.chunk.js"
   ]
 }
