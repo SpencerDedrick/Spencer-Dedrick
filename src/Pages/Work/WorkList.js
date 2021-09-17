@@ -30,40 +30,28 @@ function WorkList(props) {
     }
   });
 
-  useEffect(() => {
-    console.log("iconList = " + iconList);
-    console.log("activeIcons =  " + activeIcons);
-    console.log("filteredProjectList = " + filteredProjectList);
-  }, [activeIcons]);
-
   return (
     /* WORK PROJECT LIST */
-    <div className="container grid grid-cols-1 space-y-5 text-3xl">
-      {filteredProjectList.map((project, index) => {
-        if (index % 2 !== 1) {
-          return (
-            /* PROJECT ADDED TO LIST BASED ON IMPORTED PROJECTS ARRAY*/
-            /* EVERY OTHER PROJECT IS FLIPPED OR HAS A GRAY BACKGROUND */
-            <WorkListItem
-              name={project.name}
-              icons={project.icons}
-              subtitle={project.subtitle}
-              bg=""
-            ></WorkListItem>
-          );
-        } else {
-          return (
-            <WorkListItem
-              name={project.name}
-              flip={false}
-              icons={project.icons}
-              subtitle={project.subtitle}
-              bg="bg-gray-200"
-              flip={true}
-            ></WorkListItem>
-          );
-        }
-      })}
+    <div className="grid grid-cols-1 md:grid-cols-2 space-y-5 md:space-y-0 text-3xl py-5 m-auto ">
+      {filteredProjectList.length === 0
+        ? newProjects.map((project) => {
+            return (
+              <WorkListItem
+                name={project.name}
+                icons={project.icons}
+                subtitle={project.subtitle}
+              ></WorkListItem>
+            );
+          })
+        : filteredProjectList.map((project) => {
+            return (
+              <WorkListItem
+                name={project.name}
+                icons={project.icons}
+                subtitle={project.subtitle}
+              ></WorkListItem>
+            );
+          })}
     </div>
   );
 }

@@ -6,14 +6,16 @@ import Work from "./Pages/Work/Work";
 import Footer from "./components/Footer";
 import newProjects from "./Pages/Projects/Projects";
 import ProjectPage from "./Pages/ProjectPage";
+import ScrollToTop from "./components/ScrollToTop";
 
 import "./components/Styles/App.css";
 import "./components/Styles/tailwind.css";
 
 function App() {
   return (
-    <div className="App overflow-x-hidden">
+    <div className="App overflow-x-hidden p-5 md:m-auto min-h-screen md:flex md:flex-col md:justify-between  md:max-w-7xl">
       <Router>
+        <ScrollToTop />
         <Header />
         <Switch>
           <Route exact path="/">

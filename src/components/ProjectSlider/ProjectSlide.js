@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function ProjectSlide(props) {
   return (
@@ -8,14 +8,16 @@ function ProjectSlide(props) {
     /* PROJECT SLIDE CONTAINER AND LINK */
     <NavLink
       to={`/${props.name}`}
-      className="container project-slide-container w-full inline-block"
+      className="project-slide-container inline-block max-h-64"
     >
       {/* PROJECT SLIDE IMAGE */}
       <img
+        loading="lazy"
         src={`images/${props.name}.png`}
         alt={`${props.name} Project`}
-        className="object-cover h-full inline-block"
+        className="object-cover h-full inline-block project-slide-img"
       />
+      {/*  <Link to={`/${props.name}`}>{props.name}</Link> */}
     </NavLink>
   );
 }

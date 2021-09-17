@@ -3,42 +3,43 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 
 function WorkListItem(props) {
-  let { name, bg, flip, icons, subtitle } = props;
+  let { name, icons, subtitle } = props;
 
-  if (flip) {
-    return (
-      <Link
-        to={`/${name}`}
-        className={`grid grid-cols-2 space-x-2 w-screen py-5 px-0 ${bg}`}
-      >
-        <div className="container pl-5 py-2">
+  return (
+    <div className="grid grid-cols-2 space-x-2 py-1  work-list-item ">
+      <div className="container py-2 ">
+        <Link to={`/${name}`}>
           <img
-            src={`images/${name}.png`}
+            loading="lazy"
+            src={`images/${name}Laptop.png`}
             alt={`${name} Project`}
-            className="object-cover h-full inline-block rounded-md"
+            className="work-img h-full object-contain inline-block max-h-96 "
           />
+        </Link>
+      </div>
+      <div className="container p-4 ">
+        <Link
+          to={`/${name}`}
+          className="font-bold text-2xl hover:text-indigo-700"
+        >
+          {name}
+        </Link>
+        {/* WORK LIST ITEM ICONS */}
+        <div className="container flex space-x-2 text-xl py-3">
+          {icons.map((icon) => {
+            return <FontAwesomeIcon icon={["fab", icon]}></FontAwesomeIcon>;
+          })}
         </div>
-        <div className="container p-4 ">
-          <h1 className="font-bold text-2xl">{name}</h1>
-          {/* WORK LIST ITEM ICONS */}
-          <div className="container flex space-x-2 text-xl py-1">
-            {icons.map((icon) => {
-              return <FontAwesomeIcon icon={["fab", icon]}></FontAwesomeIcon>;
-            })}
-          </div>
-          <p className=" text-sm">{subtitle}</p>
-        </div>
-      </Link>
-    );
-  } else {
+        <p className=" text-sm">{subtitle}</p>
+      </div>
+    </div>
+  );
+  /* } else {
     return (
-      <Link
-        to={`/${name}`}
-        className={`grid grid-cols-2  w-screen py-5 px-0 ${bg}`}
-      >
-        <div className="container px-5 ">
+      <Link to={`/${name}`} className={`grid grid-cols-2 py-5 `}>
+        <div className="container  ">
           <h1 className="font-bold text-2xl">{name}</h1>
-          {/* WORK LIST ITEM ICONS */}
+         
           <div className="container flex space-x-2 text-xl py-1">
             {icons.map((icon) => {
               return <FontAwesomeIcon icon={["fab", icon]}></FontAwesomeIcon>;
@@ -51,12 +52,12 @@ function WorkListItem(props) {
           <img
             src={`images/${name}.png`}
             alt={`${name} Project`}
-            className="object-cover h-full inline-block rounded-md"
+            className="object-cover h-full inline-block "
           />
         </div>
       </Link>
     );
-  }
+  } */
 }
 
 export default WorkListItem;

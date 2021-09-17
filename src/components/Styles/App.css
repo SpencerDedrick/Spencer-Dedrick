@@ -2,84 +2,61 @@
 html * {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  transition: 100ms;
+  transition: 200ms;
+  max-width: 97vw;
 }
 
 .project-slide-container {
-  max-width: 280px;
-  width: 300px;
   height: 480px;
+  max-width: 100v;
 }
 
 .project-slider {
   max-height: 480px;
-  width: 100vw;
+  max-width: 100vw;
 }
 
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
 
-/* Hide scrollbar for IE, Edge and Firefox */
 .no-scrollbar {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .reactColor:hover {
   color: #61dafb;
 }
 
-.npmColor:hover {
-  color: #cc3534;
-}
-
 .html5Color:hover {
   color: #e34c26;
 }
 
-.css3-altColor:hover {
+.css3Color:hover {
   color: #264de4;
 }
-
-.figmaColor:hover {
-  color: #5551ff;
-}
-
 .jsColor:hover {
   color: #f0db4f;
 }
 
-.bootstrapColor:hover {
-  color: #563d7c;
-}
-
-.gitColor:hover {
-  color: #f34f29;
-}
-
-/* Tooltip container */
 .tooltip {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  border-bottom: 1px dotted #232323;
 }
 
-/* Tooltip text */
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
-  background-color: black;
+  background-color: #232323;
   color: #fff;
   text-align: center;
   padding: 5px 0;
   border-radius: 6px;
-
-  /* Position the tooltip text - see examples below! */
   position: absolute;
 }
 
-/* Show the tooltip text when you mouse over the tooltip container */
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
@@ -94,4 +71,24 @@ html * {
 
 .tooltipTarget:hover .tooltipText {
   visibility: visible;
+}
+
+p {
+  max-width: 65ch;
+}
+
+.work-list-item:hover .work-img,
+.project-slide:hover .project-slide-img {
+  opacity: 1;
+}
+
+.work-img,
+.project-slide-img {
+  opacity: 0.8;
+  transition: 500ms;
+}
+
+.work-img:hover,
+.project-slide-img:hover {
+  opacity: 1;
 }

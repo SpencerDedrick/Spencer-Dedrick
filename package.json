@@ -1,5 +1,5 @@
 {
-  "homepage": "spencerdedrick.com/",
+  "homepage": "https://spencerdedrick.com",
   "name": "spencer-dedrick",
   "version": "0.1.0",
   "private": true,
@@ -16,6 +16,7 @@
     "lodash": "^4.17.21",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-indiana-drag-scroll": "^2.0.1",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
@@ -24,7 +25,7 @@
   "scripts": {
     "start": "craco start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject"

@@ -11,13 +11,13 @@ function WorkIcons(props) {
   };
 
   return (
-    <div className="container flex space-x-4 text-3xl px-5  pb-10">
+    <div className="container flex space-x-4 text-3xl  pt-3 pb-5">
       {Object.keys(iconList).map((icon, index) => {
         if (iconList[icon] === true) {
           return (
             <FontAwesomeIcon
               icon={["fab", Object.keys(iconList)[index]]}
-              className="hover:text-indigo-700 cursor-pointer "
+              className="hover:text-indigo-700 cursor-pointer text-indigo-700 "
               onClick={() => toggleIcon(icon)}
             ></FontAwesomeIcon>
           );
@@ -25,7 +25,7 @@ function WorkIcons(props) {
           return (
             <FontAwesomeIcon
               icon={["fab", Object.keys(iconList)[index]]}
-              className="hover:text-indigo-700 cursor-pointer text-gray-400 "
+              className="hover:text-indigo-700 cursor-pointer  "
               onClick={() => toggleIcon(icon)}
             ></FontAwesomeIcon>
           );
