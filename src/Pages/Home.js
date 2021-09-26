@@ -12,15 +12,14 @@ function Home() {
     <div className="container ">
       {/* HOME HEADING TEXT */}
       <h1 className=" font-medium text-2xl py-5 md:py-10">
-        Hi, Hello! My name is Spencer. I like to create things.
+        Hi, Hello! My name is Spencer. I'm a developer.
       </h1>
       {/* HOME PARAGRAPH TEXT */}
       <p className="text-xl md:text-xl  py-5 md:py-10">
-        I am a software engineer and web developer with a focus on Javascript
-        and the React library. I have a passion for technology, and I love to
-        help others and learn new things. I strive to make any team I'm a part
-        of the best it can be. Thanks for stopping by, I look forward to working
-        with you soon.
+        I am a software engineer and web developer. I have a passion for
+        technology, and I love to help others and learn new things. I strive to
+        make any team I'm a part of the best it can be. Thanks for stopping by,
+        I look forward to working with you soon.
       </p>
       {/* HOME PROJECT CAROUSEL */}
       <h1 className="font-bold text-xl md:text-2xl py-5 uppercase pt-5 inline-block">

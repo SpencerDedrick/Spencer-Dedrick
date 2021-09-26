@@ -6,7 +6,7 @@ const newProjects = [
     description1:
       "This is an app I developed as a solution to a Front End Mentor challenge. I made use of React, and CSS grid to complete this solution. This was also my first time making an app with the ability to change themes.",
     description2:
-      "Overall I learned quite a bit during this project. This was one of my first times using grid in a significant way. This was also one of the first times I made use of Figma to prototype a design before coding. Overall this was a nice refresher after coding for so long.",
+      "Overall I learned quite a bit during this project. This was one of my first times using grid in a significant way. This was also one of the first times I made use of Figma to prototype a design before coding. Overall this was a nice refresher after not coding for so long.",
     demo: "https://calculator-app-sd.netlify.app/",
     source: "https://github.com/SpencerDedrick/calculator-app",
   },
