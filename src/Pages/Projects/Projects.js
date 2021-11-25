@@ -1,5 +1,17 @@
 const newProjects = [
   {
+    name: "eCommerce",
+    icons: ["html5", "css3-alt", "js", "react", "npm"],
+    subtitle: "A Clone of an ecommerce site",
+    description1:
+      "I've come to realize I've been missing that BIG portfolio project. After doing some reasearch I found that an E-Commerce website incorporates several different skillsets all into one product.This is a work in progress and will be continually updated.",
+    description2:
+      "I spent some time researching websites that were user friendly, made what I felt was good use of design, and looked great, but presented some elements that would challenge me and allow me to increase my skill set. I ended up landing on nixon.com as it had what I was looking for.This is an app I developed as a solution to a Front End Mentor challenge. I made use of React, and CSS grid to complete this solution. This was also my first time making an app with the ability to change themes.",
+    demo: "https://spencerdedrick.github.io/nixonclone/",
+    source: "https://github.com/SpencerDedrick/nixonclone",
+  },
+
+  {
     name: "Calculator",
     icons: ["html5", "css3-alt", "js", "react", "npm"],
     subtitle: "A multi-function calculator with changeable themes",
@@ -65,7 +77,7 @@ const newProjects = [
     demo: "https://spencerdedrick.github.io/Todo-List/",
     source: "https://github.com/SpencerDedrick/Todo-List",
   },
-  {
+  /* {
     name: "Portfolio",
     icons: ["html5", "css3-alt", "js", "react", "npm"],
     subtitle:
@@ -76,7 +88,7 @@ const newProjects = [
       "This was my first attempt at hosting using Github Pages. This is also my first website with my own custom domain. Getting this published was kind of a headache, but it was worth it since I learned so much in the process. I hope to continue to grow, and improve upon this site as I continue to learn in grow. I would encourage you to read the 'readme' file on the github repository. It details the process, struggles, and successes I had experienced while coding this site.",
     demo: "https://www.spencerdedrick.com",
     source: "https://github.com/SpencerDedrick/Spencer-Dedrick",
-  },
+  }, */
 ];
 
 export default newProjects;
