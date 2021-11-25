@@ -49,10 +49,7 @@ function About() {
         <p className="text-xl py-5">
           I live in Houston, Texas. I have been learning web development for
           three years and have been working with Reactjs for the last two years.
-          I have a background working with computer and networking hardware for
-          7 years. I currently work with the non-profit Attack Poverty, where I
-          am the Continuing Education Coordinator. There, I help develop adult
-          education programs and run an after-school program. I'm looking for a
+          I have a background working with computer and networking hardware. I also have professional experience in management, program development, and education. I'm looking for a
           position that will allow me to share and develop my skills as a web
           developer.
         </p>
