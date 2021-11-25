@@ -47,11 +47,12 @@ function About() {
       <div className="">
         {/* ABOUT PARAGRAPH 2*/}
         <p className="text-xl py-5">
-          I live in Houston, Texas. I have been learning web development for
-          three years and have been working with Reactjs for the last two years.
-          I have a background working with computer and networking hardware. I
-          also have professional experience in management, program development,
-          and education. I'm looking for a position that will allow me to share
+          I have been learning web development for three years and have been
+          working with Reactjs for the last two years. I have a background
+          working with computer and networking hardware and have done some small
+          scale web development. I also have professional experience in
+          management, program development, education, and a little bit of
+          graphic design. I'm looking for a position that will allow me to share
           and develop my skills as a web developer and software engineer.
         </p>
       </div>
