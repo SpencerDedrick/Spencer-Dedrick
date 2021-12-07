@@ -58,7 +58,7 @@ const newProjects = [
   {
     name: "DiceCalculator",
     icons: ["html5", "css3-alt", "js"],
-    subtitle: "FaceDetection subtitle text",
+    subtitle: "Simplify dice rolls. Go for a critical hit!",
     description1:
       "This app was made using vanilla HTML, CSS, and Javascript. It is one of my earliest independent projects. This little app will calculate random dice rolls for tabletop and RPG games.",
     description2:
@@ -69,7 +69,7 @@ const newProjects = [
   {
     name: "TodoList",
     icons: ["html5", "css3-alt", "js"],
-    subtitle: "FaceDetection subtitle text",
+    subtitle: "Stay on top of what needs to be done.",
     description1:
       "A simple and clean ToDo list app made using HTML, CSS, and JS.",
     description2:
