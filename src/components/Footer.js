@@ -70,7 +70,7 @@ function Footer() {
         </a>
         {/* RESUME/CV LINK */}
         <a
-          href="https://drive.google.com/file/d/1aw1Q5KMzWMwvqp3bT2QAbk6EurjCL6pn/view?usp=sharing"
+          href="https://drive.google.com/file/d/1y7OWvNIJxBvh2B8EMfUbVDbNEN5gmJAo/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="tooltipTarget"

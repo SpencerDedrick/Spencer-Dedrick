@@ -6,7 +6,7 @@ const newProjects = [
     description1:
       "I've come to realize I've been missing that BIG portfolio project. After doing some reasearch I found that an E-Commerce website incorporates several different skillsets all into one product.This is a work in progress and will be continually updated.",
     description2:
-      "I spent some time researching websites that were user friendly, made what I felt was good use of design, and looked great, but presented some elements that would challenge me and allow me to increase my skill set. I ended up landing on nixon.com as it had what I was looking for.This is an app I developed as a solution to a Front End Mentor challenge. I made use of React, and CSS grid to complete this solution. This was also my first time making an app with the ability to change themes.",
+      "I spent some time researching websites that were user friendly, made what I felt was good use of design, and looked great, but presented some elements that would challenge me and allow me to increase my skill set. I ended up landing on nixon.com as it had what I was looking for.",
     demo: "https://spencerdedrick.github.io/nixonclone/",
     source: "https://github.com/SpencerDedrick/nixonclone",
   },

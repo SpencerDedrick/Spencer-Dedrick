@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import WorkIcons from "./WorkIcons";
-import WorkList from "./WorkList";
+import { WorkList } from "./WorkList";
 
 function Work() {
   /* list of technologies for filter. This will change based on use click to grey out specific icons when filtering projects */

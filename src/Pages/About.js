@@ -14,6 +14,7 @@ let icons = [
     link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
   },
   { name: "js", link: "https://www.javascript.com/" },
+  { name: "redux", link: "https://redux.js.org/" },
 ];
 
 let skills = [
@@ -50,10 +51,10 @@ function About() {
           I have been learning web development for three years and have been
           working with Reactjs for the last two years. I have a background
           working with computer and networking hardware and have done some small
-          scale web development. I also have professional experience in
-          management, program development, education, and a little bit of
-          graphic design. I'm looking for a position that will allow me to share
-          and develop my skills as a web developer and software engineer.
+          scale web development for local non-profits. I also have professional
+          experience in management, program development, education, and graphic
+          design. I'm currently looking for a position that will allow me to
+          share and develop my skills as a web developer and software engineer.
         </p>
       </div>
       {/* ABOUT TECHNOLOGIES HEADER */}

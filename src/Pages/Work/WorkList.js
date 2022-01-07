@@ -3,7 +3,7 @@ import WorkListItem from "./WorkListItem";
 
 import newProjects from "../Projects/Projects";
 
-function WorkList(props) {
+export const WorkList = (props) => {
   let { iconList } = props;
 
   let activeIcons = Object.keys(iconList).map((icon) => {
@@ -54,6 +54,4 @@ function WorkList(props) {
           })}
     </div>
   );
-}
-
-export default WorkList;
+};
