@@ -17,7 +17,7 @@ function Footer() {
     /* FOOTER CONTAINER */
     <div className="container  w-full flex flex-col py-5 md:pb-0">
       {/* FOOTER LINKS CONTAINER*/}
-      <div className="container flex space-x-5 md:space-x-4 text-2xl  lg:text-2xl">
+      <div className="container flex space-x-6 md:space-x-4 text-2xl  lg:text-2xl">
         {/* HOME LINK */}
         <NavLink to="/" className="tooltipTarget">
           <FontAwesomeIcon

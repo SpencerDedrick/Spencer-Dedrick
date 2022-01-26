@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectSlider from "../components/ProjectSlider/ProjectSlider";
+import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
@@ -22,14 +23,16 @@ function Home() {
         I look forward to working with you soon.
       </p>
       {/* HOME PROJECT CAROUSEL */}
-      <h1 className="font-bold text-xl md:text-2xl py-5 uppercase pt-5 inline-block">
-        Featured Projects
-      </h1>
+      <NavLink to="/work">
+        <h1 className="font-bold text-xl md:text-2xl py-5 uppercase pt-5 inline-block">
+          Featured Projects
+        </h1>
 
-      <FontAwesomeIcon
-        icon="chevron-right"
-        className="mx-3 text-xl"
-      ></FontAwesomeIcon>
+        <FontAwesomeIcon
+          icon="chevron-right"
+          className="mx-3 text-xl"
+        ></FontAwesomeIcon>
+      </NavLink>
       <div className="container">
         {" "}
         <ProjectSlider />{" "}
