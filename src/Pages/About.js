@@ -18,22 +18,26 @@ let icons = [
 ];
 
 let skills = [
+  "Redux",
   "Git",
-  "Figma",
+  "Bootstrap",
+  "APIs",
   "NPM",
-  "BootStrap",
-  "Node.js",
-  "SASS",
   "Material-UI",
-  "C++",
-  "Visual Studio",
   "Selenium",
-  "Browser Automation",
+  "Wix",
+  "Figma",
   "WordPress",
-  "WIX",
-  "Adobe Photoshop",
-  "Adobe Illustrator",
-  "Autodesk CAD",
+  "Microsoft Office",
+  "Visual Studio",
+  "Adobe Creative Cloud",
+  "Responsive Design",
+  "Graphic Design",
+  "UI/UX Design",
+  "Teamwork",
+  "Problem Solving",
+  "Attention to Detail",
+  "Writing",
 ];
 
 function About() {

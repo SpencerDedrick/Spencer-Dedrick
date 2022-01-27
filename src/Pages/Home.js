@@ -17,10 +17,13 @@ function Home() {
       </h1>
       {/* HOME PARAGRAPH TEXT */}
       <p className="text-xl md:text-xl  py-5 md:py-10">
-        I am a software engineer and web developer. I have a passion for
-        technology, and I love to help others and learn new things. I strive to
-        make any team I'm a part of the best it can be. Thanks for stopping by,
-        I look forward to working with you soon.
+        I am a Software Engineer based in Houston, TX. I am proficient in
+        Frontend development. I have extensive knowledge in HTML, CSS,
+        Javascript, and React. I am also passionate about technology and have 7
+        years of experience working with computer and networking hardware. As a
+        software engineer, my goal is to help bring creative projects to life
+        and demonstrate my commitment to developing world-class software
+        solutions for you and your organization.
       </p>
       {/* HOME PROJECT CAROUSEL */}
       <NavLink to="/work">
@@ -41,7 +44,8 @@ function Home() {
 
       <h1 className=" py-5 text-xl   lg:py-10">
         You can contact me, view my work, or learn more about me by using the
-        links below.
+        links below. Thanks for stopping by, I look forward to working with you
+        soon.
       </h1>
     </div>
   );
