@@ -82,13 +82,22 @@ p {
   opacity: 1;
 }
 
+.work-list-item:hover .work-list-item-title,
+.project-slide:hover .work-list-item-title {
+  color: rgb(109 40 217);
+}
+
 .work-img,
 .project-slide-img {
-  opacity: 0.8;
+  opacity: 0.7;
   transition: 500ms;
 }
 
 .work-img:hover,
 .project-slide-img:hover {
   opacity: 1;
+}
+
+.work-list-item:hover .work-img {
+  transform: scale(1.05);
 }

@@ -35,6 +35,7 @@ function Home() {
           icon="chevron-right"
           className="mx-3 text-xl"
         ></FontAwesomeIcon>
+        <p className="md:hidden">swipe to view projects</p>
       </NavLink>
       <div className="container">
         {" "}

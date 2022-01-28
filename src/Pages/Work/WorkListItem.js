@@ -10,7 +10,6 @@ function WorkListItem(props) {
       <div className="container py-2 ">
         <Link to={`/${name}`}>
           <img
-            loading="lazy"
             src={`images/${name}Laptop.png`}
             alt={`${name} Project`}
             className="work-img h-full object-contain inline-block max-h-96 "
@@ -20,7 +19,7 @@ function WorkListItem(props) {
       <div className="container p-4 ">
         <Link
           to={`/${name}`}
-          className="font-bold text-2xl hover:text-indigo-700"
+          className="font-bold text-2xl hover:text-indigo-700 work-list-item-title"
         >
           {name}
         </Link>
