@@ -8,7 +8,7 @@ function ProjectSlide(props) {
     /* PROJECT SLIDE CONTAINER AND LINK */
     <NavLink
       to={`/${props.name}`}
-      className="project-slide-container inline-block max-h-64"
+      className="project-slide-container inline-block max-h-64 md:w-max"
     >
       {/* PROJECT SLIDE IMAGE */}
       <img

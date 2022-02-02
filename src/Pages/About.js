@@ -45,11 +45,11 @@ function About() {
     /* ABOUT PAGE */
 
     /* ABOUT PAGE CONTAINER */
-    <div className="container   ">
+    <main className="container   ">
       {/* ABOUT PAGE HEADING */}
       <h1 className=" font-medium text-2xl">Who I am</h1>
 
-      <div className="">
+      <section className="">
         {/* ABOUT PARAGRAPH 2*/}
         <p className="text-xl py-5">
           I have been learning web development for three years and have been
@@ -60,35 +60,37 @@ function About() {
           design. I'm currently looking for a position that will allow me to
           share and develop my skills as a web developer and software engineer.
         </p>
-      </div>
+      </section>
       {/* ABOUT TECHNOLOGIES HEADER */}
-      <h1 className=" font-medium text-2xl py-5">Technologies I work with</h1>
+      <h2 className=" font-medium text-2xl py-5">Technologies I work with</h2>
 
       {/* ABOUT TECHNOLOGIES ICONS GRID*/}
-      <div className="container grid grid-flow-col justify-items-start text-5xl pb-10 md:pb-5 max-w-sm">
+      <ul className="container grid grid-flow-col justify-items-start text-5xl pb-10 md:pb-5 max-w-sm">
         {icons.map((icon) => {
           return (
-            <a
-              href={icon.link}
-              rel="noopener norefferer"
-              className={`${icon.name}Color tooltipTarget`}
-            >
-              <FontAwesomeIcon icon={["fab", icon.name]}></FontAwesomeIcon>
-              <p className="tooltipText text-base py-1 px-3">{icon.name}</p>
-            </a>
+            <li>
+              <a
+                href={icon.link}
+                rel="noopener norefferer"
+                className={`${icon.name}Color tooltipTarget`}
+              >
+                <FontAwesomeIcon icon={["fab", icon.name]}></FontAwesomeIcon>
+                <p className="tooltipText text-base py-1 px-3">{icon.name}</p>
+              </a>
+            </li>
           );
         })}
-      </div>
-      <h1 className=" font-medium text-2xl pb-3">
+      </ul>
+      <h2 className=" font-medium text-2xl pb-3">
         Other skills, abilities, and languages
-      </h1>
-      <div className="md:grid grid-cols-2 lg:grid-cols-3">
+      </h2>
+      <ul className="md:grid grid-cols-2 lg:grid-cols-3 py-5">
         {skills.map((skill) => {
-          return <p>•{skill}</p>;
+          return <li>•{skill}</li>;
         })}
-      </div>
+      </ul>
       {/* LINK TO WORK PAGE */}
-      <p className="font-base text-xl pt-5">
+      <span className="font-base text-xl py-5">
         Check out some of my work by clicking {""}
         <NavLink
           to="/work"
@@ -97,8 +99,8 @@ function About() {
           here
         </NavLink>
         .
-      </p>
-    </div>
+      </span>
+    </main>
   );
 }
 

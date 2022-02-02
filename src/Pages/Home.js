@@ -10,7 +10,7 @@ library.add(faChevronRight);
 function Home() {
   return (
     /* HOME CONTAINER */
-    <div className="container ">
+    <main className="container ">
       {/* HOME HEADING TEXT */}
       <h1 className=" font-medium text-2xl py-5 md:py-10">
         Hi, Hello! My name is Spencer. I'm a developer.
@@ -27,28 +27,27 @@ function Home() {
       </p>
       {/* HOME PROJECT CAROUSEL */}
       <NavLink to="/work">
-        <h1 className="font-bold text-xl md:text-2xl py-5 uppercase pt-5 inline-block">
+        <span className="font-bold text-xl md:text-2xl py-5 uppercase pt-5 inline-block">
           Featured Projects
-        </h1>
+        </span>
 
         <FontAwesomeIcon
           icon="chevron-right"
           className="mx-3 text-xl"
         ></FontAwesomeIcon>
-        <p className="md:hidden">swipe to view projects</p>
+        <span className="lg:hidden">swipe to view projects</span>
       </NavLink>
       <div className="container">
-        {" "}
-        <ProjectSlider />{" "}
+        <ProjectSlider />
       </div>
       {/* HOME BOTTOM TEXT */}
 
-      <h1 className=" py-5 text-xl   lg:py-10">
+      <p className="py-5 text-xl   lg:py-10">
         You can contact me, view my work, or learn more about me by using the
         links below. Thanks for stopping by, I look forward to working with you
         soon.
-      </h1>
-    </div>
+      </p>
+    </main>
   );
 }
 

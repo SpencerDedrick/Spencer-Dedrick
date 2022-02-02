@@ -15,75 +15,87 @@ library.add(fab, faFileAlt, faExternalLinkAlt, faHome, faUser, faWrench);
 function Footer() {
   return (
     /* FOOTER CONTAINER */
-    <div className="container  w-full flex flex-col py-5 md:pb-0">
+    <footer className="container  w-full flex flex-col py-10 md:pb-0">
       {/* FOOTER LINKS CONTAINER*/}
-      <div className="container flex space-x-6 md:space-x-4 text-2xl  lg:text-2xl">
+      <ul className="container flex space-x-6 md:space-x-4 text-2xl  lg:text-2xl">
         {/* HOME LINK */}
-        <NavLink to="/" className="tooltipTarget">
-          <FontAwesomeIcon
-            icon="home"
-            className="hover:text-indigo-700"
-          ></FontAwesomeIcon>
-          <p className="tooltipText text-base py-1 px-3">Home</p>
-        </NavLink>
+        <li>
+          <NavLink to="/" className="tooltipTarget">
+            <FontAwesomeIcon
+              icon="home"
+              className="hover:text-indigo-700"
+            ></FontAwesomeIcon>
+            <p className="tooltipText text-base py-1 px-3">Home</p>
+          </NavLink>
+        </li>
         {/* ABOUT LINK */}
-        <NavLink to="/about" className="tooltipTarget">
-          <FontAwesomeIcon
-            icon="user"
-            className="hover:text-indigo-700"
-          ></FontAwesomeIcon>
-          <p className="tooltipText text-base py-1 px-3">About</p>
-        </NavLink>
+        <li>
+          <NavLink to="/about" className="tooltipTarget">
+            <FontAwesomeIcon
+              icon="user"
+              className="hover:text-indigo-700"
+            ></FontAwesomeIcon>
+            <p className="tooltipText text-base py-1 px-3">About</p>
+          </NavLink>
+        </li>
         {/* WORK LINK */}
-        <NavLink to="/work" className="tooltipTarget">
-          <FontAwesomeIcon
-            icon="wrench"
-            className="hover:text-indigo-700"
-          ></FontAwesomeIcon>
-          <p className="tooltipText text-base py-1 px-3">Work</p>
-        </NavLink>
+        <li>
+          <NavLink to="/work" className="tooltipTarget">
+            <FontAwesomeIcon
+              icon="wrench"
+              className="hover:text-indigo-700"
+            ></FontAwesomeIcon>
+            <p className="tooltipText text-base py-1 px-3">Work</p>
+          </NavLink>
+        </li>
         {/* LINKEDIN PROFILE LINK */}
-        <a
-          href="https://www.linkedin.com/in/spencer-dedrick"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="tooltipTarget"
-        >
-          <FontAwesomeIcon
-            icon={["fab", "linkedin"]}
-            className="hover:text-indigo-700 "
-          ></FontAwesomeIcon>
-          <p className="tooltipText text-base py-1 px-3">LinkedIn</p>
-        </a>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/spencer-dedrick"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="tooltipTarget"
+          >
+            <FontAwesomeIcon
+              icon={["fab", "linkedin"]}
+              className="hover:text-indigo-700 "
+            ></FontAwesomeIcon>
+            <p className="tooltipText text-base py-1 px-3">LinkedIn</p>
+          </a>
+        </li>
         {/* GITHUB PAGE LINK */}
-        <a
-          href="https://github.com/SpencerDedrick/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="tooltipTarget"
-        >
-          <FontAwesomeIcon
-            icon={["fab", "github"]}
-            className="hover:text-indigo-700"
-          ></FontAwesomeIcon>
-          <p className="tooltipText text-base py-1 px-3">GitHub</p>
-        </a>
+        <li>
+          <a
+            href="https://github.com/SpencerDedrick/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="tooltipTarget"
+          >
+            <FontAwesomeIcon
+              icon={["fab", "github"]}
+              className="hover:text-indigo-700"
+            ></FontAwesomeIcon>
+            <p className="tooltipText text-base py-1 px-3">GitHub</p>
+          </a>
+        </li>
         {/* RESUME/CV LINK */}
-        <a
-          href="https://drive.google.com/file/d/1orcOspWkZs-qy34HBWyzwlSmEeI1wIlR/view?usp=sharing"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="tooltipTarget"
-        >
-          <FontAwesomeIcon
-            icon="file-alt"
-            className="hover:text-indigo-700"
-          ></FontAwesomeIcon>
-          <p className="tooltipText text-base py-1 px-3">Resume</p>
-        </a>
-      </div>
+        <li>
+          <a
+            href="https://drive.google.com/file/d/1orcOspWkZs-qy34HBWyzwlSmEeI1wIlR/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="tooltipTarget"
+          >
+            <FontAwesomeIcon
+              icon="file-alt"
+              className="hover:text-indigo-700"
+            ></FontAwesomeIcon>
+            <p className="tooltipText text-base py-1 px-3">Resume</p>
+          </a>
+        </li>
+      </ul>
       {/* FOOTER EMAIL */}
-      <div className="container">
+      <section className="container py-1">
         {/* EMAIL TO LINK */}
         <a
           href="mailto: spencer.dedrick@gmail.com"
@@ -91,10 +103,10 @@ function Footer() {
         >
           Spencer.Dedrick@gmail.com
         </a>
-      </div>
+      </section>
       {/* FOOTER NAME & LEGAL*/}
-      <div className="container ">
-        <p className=" text-lg  uppercase  ">
+      <section className="container ">
+        <span className=" text-lg  uppercase  ">
           <Link
             exact
             to="/"
@@ -103,9 +115,9 @@ function Footer() {
             Spencer Dedrick{" "}
           </Link>
           <span className="font-light bg">All Rights Reserved.</span>
-        </p>
-      </div>
-    </div>
+        </span>
+      </section>
+    </footer>
   );
 }
 
