@@ -1,53 +1,13 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-let icons = [
-  { name: "react", link: "https://reactjs.org/" },
-
-  {
-    name: "html5",
-    link: "https://developer.mozilla.org/en-US/docs/Web/HTML",
-  },
-  {
-    name: "css3",
-    link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
-  },
-  { name: "js", link: "https://www.javascript.com/" },
-  { name: "redux", link: "https://redux.js.org/" },
-];
-
-let skills = [
-  "Redux",
-  "Git",
-  "Bootstrap",
-  "APIs",
-  "NPM",
-  "Material-UI",
-  "Selenium",
-  "Wix",
-  "Figma",
-  "Tailwind CSS",
-  "WordPress",
-  "Microsoft Office",
-  "Visual Studio",
-  "Adobe Creative Cloud",
-  "Responsive Design",
-  "Graphic Design",
-  "UI/UX Design",
-  "Teamwork",
-  "Problem Solving",
-  "Attention to Detail",
-  "Writing",
-];
+import { skills, aboutIcons } from "../constants/data";
 
 function About() {
   return (
     /* ABOUT PAGE */
 
-    /* ABOUT PAGE CONTAINER */
     <main className="container   ">
-      {/* ABOUT PAGE HEADING */}
       <h1 className=" font-medium text-2xl">Who I am</h1>
 
       <section className="">
@@ -62,14 +22,15 @@ function About() {
           share and develop my skills as a web developer and software engineer.
         </p>
       </section>
-      {/* ABOUT TECHNOLOGIES HEADER */}
+
       <h2 className=" font-medium text-2xl pb-10 pt-5">
         Technologies I work with
       </h2>
 
       {/* ABOUT TECHNOLOGIES ICONS GRID*/}
+      {/* MADE BY MAPPING OVER 'aboutIcon' ARRAY AND RENDERING AN ICON FOR EACH TECHNOLOGY LISTED THERE*/}
       <ul className="container grid grid-flow-col justify-items-start text-5xl pb-10 md:pb-5 max-w-sm ">
-        {icons.map((icon) => {
+        {aboutIcons.map((icon) => {
           return (
             <li>
               <a
@@ -84,6 +45,8 @@ function About() {
           );
         })}
       </ul>
+
+      {/* LIST OF SKILLS AND ABILITIES MADE BY MAPPING AND RENDERING THE 'SKILLS' ARRAY */}
       <h2 className=" font-medium text-2xl pb-3">
         Other skills, abilities, and languages
       </h2>
@@ -92,7 +55,7 @@ function About() {
           return <li className="list-none text-">•{skill}</li>;
         })}
       </ul>
-      {/* LINK TO WORK PAGE */}
+
       <span className="font-base text-xl py-5">
         Check out some of my work by clicking {""}
         <NavLink
