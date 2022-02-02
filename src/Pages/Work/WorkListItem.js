@@ -6,7 +6,7 @@ function WorkListItem(props) {
   let { name, icons, subtitle } = props;
 
   return (
-    <div className="grid grid-cols-2 space-x-2 py-1  work-list-item ">
+    <section className="grid grid-cols-2 space-x-2 py-1  work-list-item ">
       <div className="container py-2 ">
         <Link to={`/${name}`}>
           <img
@@ -29,9 +29,9 @@ function WorkListItem(props) {
             return <FontAwesomeIcon icon={["fab", icon]}></FontAwesomeIcon>;
           })}
         </div>
-        <p className=" text-sm">{subtitle}</p>
+        <span className=" text-sm">{subtitle}</span>
       </div>
-    </div>
+    </section>
   );
   /* } else {
     return (

@@ -11,7 +11,7 @@ function WorkIcons(props) {
   };
 
   return (
-    <div className="container flex space-x-4 text-3xl  pt-3 pb-5">
+    <section className="container flex space-x-4 text-3xl  pt-3 pb-5">
       {Object.keys(iconList).map((icon, index) => {
         if (iconList[icon] === true) {
           return (
@@ -31,7 +31,7 @@ function WorkIcons(props) {
           );
         }
       })}
-    </div>
+    </section>
   );
 }
 

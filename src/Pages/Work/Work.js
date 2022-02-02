@@ -15,16 +15,18 @@ function Work() {
     "node-js": false,
   });
   return (
-    <div className="container ">
+    <main className="container ">
       <h1 className=" font-medium text-2xl ">
         Below you'll find some of my work.
       </h1>
-      <p className="text-sm pt-5 ">Click the icons to filter the projects.</p>
+      <span className="text-sm pt-5 ">
+        Click the icons to filter the projects.
+      </span>
       {/* WORK PAGE ICONS */}
       <WorkIcons iconList={iconList} setIconList={setIconList} />
       {/* WORK PAGE PROJECTS LIST */}
       <WorkList iconList={iconList} />
-      <p className="font-base text-xl py-5">
+      <span className="font-base text-xl py-5">
         Learn more about me by clicking {""}
         <NavLink
           to="/about"
@@ -33,8 +35,8 @@ function Work() {
           here
         </NavLink>
         .
-      </p>
-    </div>
+      </span>
+    </main>
   );
 }
 

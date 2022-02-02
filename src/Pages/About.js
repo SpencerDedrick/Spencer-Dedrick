@@ -27,6 +27,7 @@ let skills = [
   "Selenium",
   "Wix",
   "Figma",
+  "Tailwind CSS",
   "WordPress",
   "Microsoft Office",
   "Visual Studio",
@@ -62,10 +63,12 @@ function About() {
         </p>
       </section>
       {/* ABOUT TECHNOLOGIES HEADER */}
-      <h2 className=" font-medium text-2xl py-5">Technologies I work with</h2>
+      <h2 className=" font-medium text-2xl pb-10 pt-5">
+        Technologies I work with
+      </h2>
 
       {/* ABOUT TECHNOLOGIES ICONS GRID*/}
-      <ul className="container grid grid-flow-col justify-items-start text-5xl pb-10 md:pb-5 max-w-sm">
+      <ul className="container grid grid-flow-col justify-items-start text-5xl pb-10 md:pb-5 max-w-sm ">
         {icons.map((icon) => {
           return (
             <li>
@@ -84,9 +87,9 @@ function About() {
       <h2 className=" font-medium text-2xl pb-3">
         Other skills, abilities, and languages
       </h2>
-      <ul className="md:grid grid-cols-2 lg:grid-cols-3 py-5">
+      <ul className="md:grid grid-cols-2 lg:grid-cols-3 py-5 list-none">
         {skills.map((skill) => {
-          return <li>•{skill}</li>;
+          return <li className="list-none text-">•{skill}</li>;
         })}
       </ul>
       {/* LINK TO WORK PAGE */}
@@ -98,7 +101,6 @@ function About() {
         >
           here
         </NavLink>
-        .
       </span>
     </main>
   );

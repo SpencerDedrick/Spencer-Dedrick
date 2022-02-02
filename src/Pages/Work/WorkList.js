@@ -32,7 +32,7 @@ export const WorkList = (props) => {
 
   return (
     /* WORK PROJECT LIST */
-    <div className="grid grid-cols-1 md:grid-cols-2 space-y-5 md:space-y-0 text-3xl py-5 m-auto ">
+    <section className="grid grid-cols-1 md:grid-cols-2 space-y-5 md:space-y-0 text-3xl py-5 m-auto ">
       {filteredProjectList.length === 0
         ? newProjects.map((project) => {
             return (
@@ -52,6 +52,6 @@ export const WorkList = (props) => {
               ></WorkListItem>
             );
           })}
-    </div>
+    </section>
   );
 };
