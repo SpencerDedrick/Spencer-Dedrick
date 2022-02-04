@@ -27,7 +27,7 @@ const Home = () => {
       </p>
       {/* HOME PROJECT CAROUSEL */}
       <NavLink to="/work">
-        <span className="font-bold text-xl md:text-2xl py-5 uppercase pt-5 inline-block">
+        <span className="font-bold text-xl md:text-2xl pt-5 pb-2 uppercase  inline-block">
           Featured Projects
         </span>
 
@@ -35,7 +35,8 @@ const Home = () => {
           icon="chevron-right"
           className="mx-3 text-xl"
         ></FontAwesomeIcon>
-        <span className="lg:hidden">swipe to view projects</span>
+        <br />
+        <span className="lg:hidden">swipe to view</span>
       </NavLink>
       <div className="container">
         <ProjectSlider />

@@ -13,13 +13,14 @@ function About() {
       <section className="">
         {/* ABOUT PARAGRAPH 2*/}
         <p className="text-xl py-5">
-          I have been learning web development for three years and have been
-          working with Reactjs for the last two years. I have a background
-          working with computer and networking hardware and have done some small
-          scale web development for local non-profits. I also have professional
-          experience in management, program development, education, and graphic
-          design. I'm currently looking for a position that will allow me to
-          share and develop my skills as a web developer and software engineer.
+          I'm a software engineer and web developer. I build responsive designs
+          using React, Redux, and a wide variety of other technologies. I have a
+          background working with computer and networking hardware and have done
+          some small scale web development for local non-profits. I also have
+          professional experience in management, program development, education,
+          and graphic design. I'm currently looking for a position that will
+          allow me to share and develop my skills as a web developer and
+          software engineer.
         </p>
       </section>
 
