@@ -52,7 +52,7 @@ function About() {
       </h2>
       <ul className="md:grid grid-cols-2 lg:grid-cols-3 py-5 list-none">
         {skills.map((skill) => {
-          return <li className="list-none text-">•{skill}</li>;
+          return <li className="italic">• {skill}</li>;
         })}
       </ul>
 

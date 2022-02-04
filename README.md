@@ -101,3 +101,7 @@ This is something that will be continually updated as I develop more projects an
 
 - Website - [Spencer Dedrick](https://spencerdedrick.com/)
 - LinkedIn - [Spencer Dedrick](https://www.linkedin.com/in/spencer-dedrick/)
+
+## Where I left off last
+
+Make variable with relavent info from contants such as workListInfo = [[project name, project thumb, etc...]]

@@ -7,7 +7,7 @@ import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 library.add(faChevronRight);
 
-function Home() {
+const Home = () => {
   return (
     /* HOME CONTAINER */
     <main className="container ">
@@ -49,6 +49,6 @@ function Home() {
       </p>
     </main>
   );
-}
+};
 
 export default Home;
