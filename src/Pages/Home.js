@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import { Transition } from "react-transition-group";
 
 library.add(faChevronRight);
 
@@ -12,6 +13,7 @@ const Home = () => {
     /* HOME CONTAINER */
     <main className="container ">
       {/* HOME HEADING TEXT */}
+
       <h1 className=" font-medium text-2xl py-5 md:py-10">
         Hi, Hello! My name is Spencer. I'm a developer.
       </h1>
