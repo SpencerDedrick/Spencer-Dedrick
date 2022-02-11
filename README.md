@@ -18,7 +18,7 @@ This is the redesign of my portfolio website. In this file you will find more ab
 
 ## Overview
 
-First a foremost I wanted to create a website to showcase the projects that I have been working on. I also wanted to move away from the template I had been using for so long.
+First and foremost I wanted to create a website to showcase the projects that I have been working on. I also wanted to move away from the template I had been using for so long.
 
 I took a lot of inspiration for this site for various portfolios that caught my eyes over the last year or so. I wanted my website to be easy to be simple, clean, and user friendly. I also wanted to put an emphasis on responsiveness.
 
