@@ -77,18 +77,18 @@ export const projects = [
     demo: "https://spencerdedrick.github.io/Todo-List/",
     source: "https://github.com/SpencerDedrick/Todo-List",
   },
-  /* {
-      name: "Portfolio",
-      icons: ["html5", "css3-alt", "js", "react", "npm"],
-      subtitle:
-        "This is my personal portfolio site that you're viewing right now.",
-      description1:
-        "This project is one I put a lot of effort into. It has and continues to serve as a great learning opportunity.",
-      description2:
-        "This was my first attempt at hosting using Github Pages. This is also my first website with my own custom domain. Getting this published was kind of a headache, but it was worth it since I learned so much in the process. I hope to continue to grow, and improve upon this site as I continue to learn in grow. I would encourage you to read the 'readme' file on the github repository. It details the process, struggles, and successes I had experienced while coding this site.",
-      demo: "https://www.spencerdedrick.com",
-      source: "https://github.com/SpencerDedrick/Spencer-Dedrick",
-    }, */
+  {
+    name: "Portfolio",
+    icons: ["html5", "css3-alt", "js", "react", "npm"],
+    subtitle:
+      "This is my personal portfolio site that you're viewing right now.",
+    description1:
+      "This project is one I put a lot of effort into. It has and continues to serve as a great learning opportunity.",
+    description2:
+      "This was my first attempt at hosting using Github Pages. This is also my first website with my own custom domain. Getting this published was kind of a headache, but it was worth it since I learned so much in the process. I hope to continue to grow, and improve upon this site as I continue to learn in grow. I would encourage you to read the 'readme' file on the github repository. It details the process, struggles, and successes I had experienced while coding this site.",
+    demo: "https://www.spencerdedrick.com",
+    source: "https://github.com/SpencerDedrick/Spencer-Dedrick",
+  },
 ];
 
 export const skills = [

@@ -4,14 +4,19 @@ import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
-import { Transition } from "react-transition-group";
+import { motion } from "framer-motion";
 
 library.add(faChevronRight);
 
 const Home = () => {
   return (
     /* HOME CONTAINER */
-    <main className="container ">
+    <motion.main
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ once: true }}
+      className="container "
+    >
       {/* HOME HEADING TEXT */}
 
       <h1 className=" font-medium text-2xl py-5 md:py-10">
@@ -50,7 +55,7 @@ const Home = () => {
         links below. Thanks for stopping by, I look forward to working with you
         soon.
       </p>
-    </main>
+    </motion.main>
   );
 };
 
