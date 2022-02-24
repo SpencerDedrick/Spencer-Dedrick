@@ -18,23 +18,24 @@ const Home = () => {
       className="container "
     >
       {/* HOME HEADING TEXT */}
-      <FMTest />
+      {/* <FMTest /> */}
       <h1 className=" font-medium text-2xl py-5 md:py-10">
-        Hi, Hello! My name is Spencer. I'm a developer.
+        Hi, Hello! My name is Spencer, and I'm a developer.
       </h1>
       {/* HOME PARAGRAPH TEXT */}
-      <p className="text-xl md:text-xl  py-5 md:py-10">
-        I am a Software Engineer based in Houston, TX. I am proficient in
-        Frontend development. I have extensive knowledge in HTML, CSS,
-        Javascript, and React. I am also passionate about technology and have 7
-        years of experience working with computer and networking hardware. As a
-        software engineer, my goal is to help bring creative projects to life
-        and demonstrate my commitment to developing world-class software
-        solutions for you and your organization.
+      <p className="text-xl py-5 md:pt-5 md:pb-10">
+        I'm a Software Engineer based in Houston, TX. I love creating fun new
+        things on the internet.I have an extensive knowledge in HTML, CSS,
+        Javascript, and React. I have a passion for technology and have 7 years
+        of experience working and diagnosing computers, networking hardware, and
+        emerging technologies. As a developer,my goal is to help bring creative
+        projects to life with world-class software solutions, and help other
+        learn how to use technology to improve their lives in a way that is
+        accessible.
       </p>
       {/* HOME PROJECT CAROUSEL */}
-      <NavLink to="/work">
-        <span className="font-bold text-xl md:text-2xl pt-5 pb-2 uppercase  inline-block">
+      <NavLink to="/work" className="hover:text-indigo-700">
+        <span className="font-bold text-xl md:text-2xl pb-2 pt-5 md:py-5 uppercase  inline-block">
           Featured Projects
         </span>
 
@@ -50,7 +51,7 @@ const Home = () => {
       </div>
       {/* HOME BOTTOM TEXT */}
 
-      <p className="py-5 text-xl   lg:py-10">
+      <p className="py-5 text-xl lg:pt-10 lg:pb-5">
         You can contact me, view my work, or learn more about me by using the
         links below. Thanks for stopping by, I look forward to working with you
         soon.

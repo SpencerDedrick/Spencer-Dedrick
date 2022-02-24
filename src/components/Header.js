@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 function Header() {
   return (
     /* HEADER CONTAINER */
-    <nav className=" header-container flex items-center justify-between align-top flex-wrap cursor-pointer pb-5">
+    <nav className=" header-container flex items-center justify-between align-top flex-wrap pb-5">
       {/*  HEADER LOGO */}
       <NavLink
         exact
@@ -15,8 +15,8 @@ function Header() {
         <h1 className="font-medium text-2xl md:text-3xl   uppercase cursor-pointer ">
           Spencer
         </h1>
-        <h1 className="font-medium text-2xl md:text-3xl  uppercase ">
-          Dedrick
+        <h1 className="font-medium text-2xl md:text-3xl  tracking-wide uppercase ">
+          Dedrick<span className="text-base px-1">.com</span>
         </h1>
       </NavLink>
 

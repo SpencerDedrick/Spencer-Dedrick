@@ -15,7 +15,7 @@ library.add(fab, faFileAlt, faExternalLinkAlt, faHome, faUser, faWrench);
 function Footer() {
   return (
     /* FOOTER CONTAINER */
-    <footer className="container  w-full flex flex-col py-10 md:pb-0">
+    <footer className="container  w-full flex flex-col py-10 md:pb-0 md:pt-5">
       {/* FOOTER LINKS CONTAINER*/}
       <ul className="container flex space-x-6 md:space-x-4 text-2xl  lg:text-2xl">
         {/* HOME LINK */}
