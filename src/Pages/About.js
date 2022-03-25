@@ -70,7 +70,7 @@ function About() {
       <span className="font-base text-xl py-5 block">
         View my CV {""}
         <a
-          href="https://drive.google.com/file/d/1zMGjk9Yifw1EGnLW5_P1zr4StvM0tuc5/view?usp=sharing"
+          href="https://drive.google.com/file/d/10D_H0orCZv9j1ic00KfxK1JxTso2aUTc/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="font-bold cursor-pointer hover:text-indigo-700"
